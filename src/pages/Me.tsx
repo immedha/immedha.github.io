@@ -31,8 +31,8 @@ const Home = () => {
 
       <div className="max-w-6xl mx-auto px-4 py-8">
         {/* Header */}
-        <div className="mb-8 animate-fade-in-up flex items-start gap-8">
-          <div className="flex-1">
+        <div className="mb-8 animate-fade-in-up flex flex-col md:flex-row items-center md:items-start gap-8">
+          <div className="flex-1 w-full">
             <h1 className="text-4xl md:text-5xl font-light text-gray-900 dark:text-white mb-3">
               hey, i'm <span className="font-medium text-green-600 dark:text-green-400">medha</span> 👋
             </h1>
@@ -55,7 +55,7 @@ const Home = () => {
               share things i'm building, and collect resources that inspire me. think of it as my digital brain 🧠
             </p>
           </div>
-          <div className="relative w-60 h-60 rounded-lg overflow-hidden">
+          <div className="relative w-48 h-48 md:w-60 md:h-60 rounded-lg overflow-hidden flex-shrink-0">
               <img
                 src={"/medha_msft.jpg"}
                 alt="Medha"
