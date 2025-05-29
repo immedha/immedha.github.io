@@ -82,16 +82,16 @@ const Home = () => {
               { skill: "Node.js 📈", tooltip: "my favorite backend framework" },
               { skill: "Express.js 🛣️", tooltip: "my favorite backend framework" },
               { skill: "MongoDB 📁", tooltip: "a classic"},
-              { skill: "Flutter/Dart 🦋", tooltip: "" },
+              { skill: "Flutter/Dart 🦋" },
             ].map(({ skill, tooltip }) => (
               <span 
                 key={skill}
                 className="px-3 py-1 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-sm relative group"
               >
                 {skill}
-                <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 text-xs text-white bg-gray-900 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                {tooltip && <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 text-xs text-white bg-gray-900 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
                   {tooltip}
-                </span>
+                </span>}
               </span>
             ))}
           </div>
