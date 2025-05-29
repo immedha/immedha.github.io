@@ -4,7 +4,6 @@ import { useState, useEffect } from "react"
 
 const Home = () => {
   const [currentThought, setCurrentThought] = useState(0)
-  const [currentImage, setCurrentImage] = useState(0)
   const thoughts = [
     "building the future with code",
     "exploring AI and machine learning",
