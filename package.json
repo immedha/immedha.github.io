@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://immedha.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -20,7 +21,7 @@
     "@eslint/js": "^9.25.0",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
-    "@vitejs/plugin-react-swc": "^3.9.0",
+    "@vitejs/plugin-react-swc": "^3.10.0",
     "autoprefixer": "^10.4.17",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
