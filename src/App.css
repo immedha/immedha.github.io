@@ -1915,21 +1915,25 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 60vh;
+  min-height: 100vh;
   text-align: center;
   padding: 2rem;
+  @apply bg-white dark:bg-gray-900;
+  margin-top: -60px; /* Offset for navbar height */
 }
 
 .not-found h1 {
   font-size: 6rem;
   margin: 0;
   @apply text-gray-900 dark:text-white;
+  font-family: "Playfair Display", serif;
 }
 
 .not-found h2 {
   font-size: 2rem;
   margin: 1rem 0;
   @apply text-gray-900 dark:text-white;
+  font-family: "Playfair Display", serif;
 }
 
 .not-found p {
