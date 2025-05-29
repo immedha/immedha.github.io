@@ -71,18 +71,36 @@ const Home = () => {
             {[
               { skill: "Python 🐍", tooltip: "my leetcode love" },
               { skill: "Java ☕", tooltip: "my first love" },
+              { skill: "OpenAI APIs 🤖", tooltip: "my best friend" },
+              { skill: "Gemini APIs 🤖", tooltip: "my best friend" },
+              { skill: "Langchain ⛓", tooltip: "THE llm framework" },
+              { skill: "Machine Learning 📖" },
+              { skill: "Computer Vision 👁️" },
+              { skill: "Natural Language Processing ✏️" },
+              { skill: "RAG 🔐" },
+            ].map(({ skill, tooltip }) => (
+              <span 
+                key={skill}
+                className="px-3 py-1 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-sm relative group"
+              >
+                {skill}
+                {tooltip && <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 text-xs text-white bg-gray-900 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+                  {tooltip}
+                </span>}
+              </span>
+            ))}
+          </div>
+          <div className="flex flex-wrap gap-3 mt-8">
+            {[
               { skill: "TypeScript ⚡", tooltip: "if you make me code in javascript, i will quit" },
               { skill: "React ⚛️", tooltip: "the goat" },
-              { skill: "OpenAI APIs 🤖", tooltip: "my best friend" },
               { skill: "Firebase 🔥", tooltip: "my favorite database" },
               { skill: "Redux 🗓️", tooltip: "my favorite state management" },
-              { skill: "Machine Learning 🤖", tooltip: "super interesting" },
-              { skill: "Langchain ⛓", tooltip: "THE llm framework"},
               { skill: "React Native 📱", tooltip: "my favorite mobile framework" },
               { skill: "Node.js 📈", tooltip: "my favorite backend framework" },
               { skill: "Express.js 🛣️", tooltip: "my favorite backend framework" },
               { skill: "MongoDB 📁", tooltip: "a classic"},
-              { skill: "Flutter/Dart 🦋" },
+              { skill: "Flutter/Dart 🦋" }
             ].map(({ skill, tooltip }) => (
               <span 
                 key={skill}
