@@ -112,7 +112,7 @@ const Home = () => {
             {[
               { emoji: "❄️", text: "love winter" },
               { emoji: "🎵", text: "bollywood coding playlist" },
-              { emoji: "🤮", text: "will never touch vr or game dev again" },
+              { emoji: "🫆", text: "love to bing crime shows" },
               { emoji: "🕵️", text: "wannabe fbi agent in another life" },
             ].map((fact) => (
               <div key={fact.text} className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300">
