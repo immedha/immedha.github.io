@@ -66,13 +66,23 @@ const Home = () => {
 
         {/* Skills */}
         <div className="mb-8">
-          <h2 className="text-xl font-light text-gray-900 dark:text-white mb-4">what i work with</h2>
+          <h2 className="text-xl font-light text-gray-900 dark:text-white mb-4">my skills</h2>
           <div className="flex flex-wrap gap-3">
             {[
               { skill: "Python 🐍", tooltip: "my leetcode love" },
               { skill: "Java ☕", tooltip: "my first love" },
               { skill: "TypeScript ⚡", tooltip: "if you make me code in javascript, i will quit" },
-              { skill: "React ⚛️", tooltip: "the goat" }
+              { skill: "React ⚛️", tooltip: "the goat" },
+              { skill: "OpenAI APIs 🤖", tooltip: "my best friend" },
+              { skill: "Firebase 🔥", tooltip: "my favorite database" },
+              { skill: "Redux 🗓️", tooltip: "my favorite state management" },
+              { skill: "Machine Learning 🤖", tooltip: "super interesting" },
+              { skill: "Langchain ⛓", tooltip: "THE llm framework"},
+              { skill: "React Native 📱", tooltip: "my favorite mobile framework" },
+              { skill: "Node.js 📈", tooltip: "my favorite backend framework" },
+              { skill: "Express.js 🛣️", tooltip: "my favorite backend framework" },
+              { skill: "MongoDB 📁", tooltip: "a classic"},
+              { skill: "Flutter/Dart 🦋", tooltip: "" },
             ].map(({ skill, tooltip }) => (
               <span 
                 key={skill}
@@ -111,8 +121,8 @@ const Home = () => {
           <div className="grid grid-cols-2 gap-3">
             {[
               { emoji: "❄️", text: "love winter" },
-              { emoji: "🎵", text: "bollywood coding playlist" },
-              { emoji: "🫆", text: "love to bing crime shows" },
+              { emoji: "🎵", text: "my coding playlist is bollywood songs" },
+              { emoji: "🫆", text: "love watching crime shows" },
               { emoji: "🕵️", text: "wannabe fbi agent in another life" },
             ].map((fact) => (
               <div key={fact.text} className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300">
