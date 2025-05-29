@@ -51,11 +51,11 @@ const Navbar = () => {
 
   const navItems = [
     { path: "/", label: "me" },
-    { path: "/projects", label: "building" },
-    { path: "/education", label: "uw" },
+    { path: "/building", label: "building" },
+    { path: "/uw", label: "uw" },
     // { path: "/about", label: "thoughts" },
-    { path: "/resources", label: "favorites" },
-    { path: "/contact", label: "connect" },
+    { path: "/favorites", label: "favorites" },
+    { path: "/connect", label: "connect" },
   ]
 
   return (
