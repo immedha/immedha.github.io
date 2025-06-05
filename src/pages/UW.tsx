@@ -5,21 +5,21 @@ const Education = () => {
       name: "Intro to Algorithms",
       grade: "A",
       logo: "/logos/uw.png",
-      thought: "the hardest cs class i've taken but worth it in retrospect. one of the only classes that made me appreciate theory, and was super helpful for interviewing and OAs",
+      thought: "this was the hardest cs class i've taken but worth it in retrospect. one of the only classes that made me appreciate theory, and was super helpful for interviewing and OAs",
     },
     {
       code: "CSE 403",
       name: "Software Engineering",
       grade: "A",
       logo: "/logos/uw.png",
-      thought: "the professor was amazing, this is the type of class where you get what you put into it. i learned so much about the sdlc too",
+      thought: "this class taught me so much about the SDLC and collaborating in a coding project. i ended up making the project @foodography-ai with my team",
     },
     {
       code: "ENTRE 432",
       name: "Software Entrepreneurship",
       grade: "A",
       logo: "/logos/uw.png",
-      thought: "best entrepreneurship class i've ever taken, learned the vocabulary and frameworks to understand startups. the professor was amazing here as well",
+      thought: "this was the best entrepreneurship class i've ever taken, and it taught me the vocabulary and frameworks to understand startups. i made a company @hobby-hub with my team",
     },
     {
       code: "CSE 312",
@@ -34,7 +34,7 @@ const Education = () => {
       name: "Operating Systems",
       grade: "A",
       logo: "/logos/uw.png",
-      thought: <span>"i think it's sad if you graduate cs and don't know operating systems" (<a href="https://shashanksree.com" target="_blank" rel="noopener noreferrer" className="text-green-600 dark:text-green-400 hover:underline">shashank sreepathi</a>). this class answered all my childhood questions about how computers work and what it means for the computer to process 1s and 0s</span>,
+      thought: <span>"i think it's sad if you graduate cs and don't know operating systems" (<a href="https://shashanksree.com" target="_blank" rel="noopener noreferrer" className="text-green-600 dark:text-green-400 hover:underline">shashank sreepathi</a>). this class answered all my childhood questions about how computers work and what it means for the computer to process 1s and 0s. i made an operating system, xk, in this class</span>,
     },
     {
       code: "CSE 391",
