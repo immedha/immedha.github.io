@@ -8,7 +8,6 @@ import UW from "./pages/UW"
 import Favorites from "./pages/Favorites"
 import Connect from "./pages/Connect"
 import NotFound from "./pages/NotFound"
-// import About from "./pages/About"
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
           <main className="main-content">
             <Routes>
               <Route path="/" element={<Me />} />
-              {/* <Route path="/about" element={<About />} /> */}
               <Route path="/building" element={<Building />} />
               <Route path="/uw" element={<UW />} />
               <Route path="/favorites" element={<Favorites />} />

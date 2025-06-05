@@ -1,5 +1,3 @@
-"use client"
-
 import { useEffect, useState } from "react"
 
 const FloatingElements = () => {
@@ -23,8 +21,8 @@ const FloatingElements = () => {
       x: Math.random() * window.innerWidth,
       y: Math.random() * window.innerHeight,
       emoji: emojis[Math.floor(Math.random() * emojis.length)],
-      size: Math.random() * 0.5 + 0.8, // 0.8 to 1.3
-      speed: Math.random() * 0.5 + 0.2, // 0.2 to 0.7
+      size: Math.random() * 0.5 + 0.8,
+      speed: Math.random() * 0.5 + 0.2,
       rotation: Math.random() * 360,
     }))
 

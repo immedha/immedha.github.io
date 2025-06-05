@@ -140,7 +140,6 @@ const Resources = () => {
           </p>
         </div>
 
-        {/* Tabs */}
         <div className="flex gap-4 mb-12 border-b border-gray-200 dark:border-gray-700">
           {tabs.map((tab) => (
             <button
@@ -158,7 +157,6 @@ const Resources = () => {
           ))}
         </div>
 
-        {/* Content */}
         <div className="space-y-6">
           {activeTab === "youtube" && (
             <div className="space-y-6">

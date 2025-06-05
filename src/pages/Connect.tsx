@@ -1,5 +1,3 @@
-"use client"
-
 import type React from "react"
 import { useState } from "react"
 
@@ -44,7 +42,6 @@ const Contact = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact info */}
           <div className="space-y-8">
             <div>
               <h2 className="text-2xl font-light text-gray-900 dark:text-white mb-6">find me online</h2>
@@ -85,7 +82,6 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Contact form */}
           <div className="p-8 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-green-300 dark:hover:border-green-600 transition-all duration-300">
             <h2 className="text-2xl font-light text-gray-900 dark:text-white mb-6">send me a message</h2>
 

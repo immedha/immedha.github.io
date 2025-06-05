@@ -85,7 +85,6 @@ const Education = () => {
           </p>
         </div>
 
-        {/* Courses */}
         <div className="mb-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {courses.map((course, index) => (
@@ -108,11 +107,9 @@ const Education = () => {
           </div>
         </div>
 
-        {/* Achievements and Clubs Container */}
         <div className="mb-8">
           <h2 className="text-xl font-light text-gray-900 dark:text-white mb-4">things i'm involved in at uw</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Achievements Column 1 */}
             <div className="grid grid-cols-1 gap-4">
               {achievements.slice(0, 2).map((achievement, index) => (
                 <div
@@ -131,7 +128,6 @@ const Education = () => {
               ))}
             </div>
 
-            {/* Achievements Column 2 */}
             <div className="grid grid-cols-1 gap-4">
               {achievements.slice(2).map((achievement, index) => (
                 <div
@@ -150,7 +146,6 @@ const Education = () => {
               ))}
             </div>
 
-            {/* Clubs Column */}
             <div className="flex flex-wrap gap-2 content-start">
               {[
                 { name: "Women in Computing", emoji: "👩‍💻" },

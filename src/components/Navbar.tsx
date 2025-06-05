@@ -1,5 +1,3 @@
-"use client"
-
 import type React from "react"
 import { useState, useEffect, createContext, useContext } from "react"
 import { Link, useLocation } from "react-router-dom"
@@ -53,7 +51,6 @@ const Navbar = () => {
     { path: "/", label: "me" },
     { path: "/building", label: "building" },
     { path: "/uw", label: "uw" },
-    // { path: "/about", label: "thoughts" },
     { path: "/favorites", label: "favorites" },
     { path: "/connect", label: "connect" },
   ]

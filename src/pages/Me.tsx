@@ -1,5 +1,3 @@
-"use client"
-
 import { useState, useEffect } from "react"
 
 const Home = () => {
@@ -22,7 +20,6 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 pt-12">
-      {/* Floating elements */}
       <div className="floating-element top-12 left-10 text-2xl">🌱</div>
       <div className="floating-element top-32 right-20 text-xl">💻</div>
       <div className="floating-element top-48 left-1/4 text-lg">✨</div>
@@ -30,7 +27,6 @@ const Home = () => {
       <div className="floating-element bottom-48 left-20 text-lg">🤖</div>
 
       <div className="max-w-6xl mx-auto px-4 py-8">
-        {/* Header */}
         <div className="mb-8 animate-fade-in-up flex flex-col md:flex-row items-center md:items-start gap-8">
           <div className="flex-1 w-full">
             <h1 className="text-4xl md:text-5xl font-light text-gray-900 dark:text-white mb-3">
@@ -64,7 +60,6 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Skills */}
         <div className="mb-8">
           <h2 className="text-xl font-light text-gray-900 dark:text-white mb-4">my skills</h2>
           <div className="flex flex-wrap gap-3">
@@ -115,7 +110,6 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Values */}
         <div className="mb-8">
           <h2 className="text-xl font-light text-gray-900 dark:text-white mb-4">what drives me</h2>
           <div className="grid grid-cols-2 gap-3">
@@ -133,7 +127,6 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Fun facts */}
         <div>
           <h2 className="text-xl font-light text-gray-900 dark:text-white mb-4">random facts about me</h2>
           <div className="grid grid-cols-2 gap-3">
