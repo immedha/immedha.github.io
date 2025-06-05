@@ -68,3 +68,10 @@ I am trying to make a personal website as a computer science student, and I want
 I want it to be aesthetic, colorful but not too bright, simple, and I really like Notion's styling so I want to mimic that minimalism. Also, my favorite color is dark green. I need a light and dark mode in my website. Give me an idea for the fonts and color scheme of the project
 ```
 * I used the Github Copilot extension in VSCode to style all the components with TailwindCSS. For every component, I selected all of it and prompted Copilot with "here is the styling I want: {}. Add inline tailwindcss to it."
+
+### My note when I set up the custom domain
+
+"While you make changes to the TLD registry, note how your DNS entry populates across the network. Is it available somewhere (e.g., 8.8.8.8) before it is available locally?"
+
+My answer:
+I got a custom domain through Hostinger, and I made changes to the TLD registry in it by updating the A records to the IP addresses of Github pages, and the CNAME record. I checked how the DNS entry populates across the network by using the `dig` command on terminal. I saw that when I did `dig immedha.com @8.8.8.8` and `dig immedha.com`, the @8.8.8.8 showed the new IP address a few minutes before my local DNS. This is interesting because it shows how propogating the domain can be laggy.
